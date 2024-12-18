@@ -1,0 +1,30 @@
+.burger{
+    position: relative;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    pointer-events: auto;
+    &::before, &::after{
+        display: block;
+        content: "";
+        width: 30px;
+        height: 2px;
+        mix-blend-mode: difference;
+        // background-color: white;
+    }
+}
+.cursorContainer {
+    position: fixed;
+    z-index: 9999; /* Ensure it's on top of all other content */
+}
+  
+.cursor{
+    position: fixed;
+    z-index: 2;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 50%;
+    pointer-events: none;
+    
+}
