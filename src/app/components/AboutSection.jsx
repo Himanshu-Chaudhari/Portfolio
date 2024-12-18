@@ -8,7 +8,7 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <div className="flex text-4xl text-center gap-28">
+      <div className="flex flex-col md:flex-row sm:flex-row text-4xl text-center gap-28">
         <ul >
           <li className="mb-10">FrontEnd</li>
           <li><div className="gap-4  text-2xl flex m-2"><div>{image.JavaScript.svg}</div>JavaScript</div></li>
