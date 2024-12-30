@@ -30,7 +30,7 @@ const projectsData = [
     image: "/projects/Coursify.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Himanshu-Chaudhari/coursify",
-    previewUrl: "/",
+    previewUrl: "/https://github.com/Himanshu-Chaudhari/coursify",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const projectsData = [
     image: "/projects/PayTM.jpg",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/Himanshu-Chaudhari/PayTM.git",
-    previewUrl: "/",
+    previewUrl: "/https://github.com/Himanshu-Chaudhari/PayTM.git",
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const projectsData = [
     image: "/projects/WazirX3.jpg",
     tag: ["All", "Web3"],
     gitUrl: "https://github.com/Himanshu-Chaudhari/MyExchange",
-    previewUrl: "/",
+    previewUrl: "/https://github.com/Himanshu-Chaudhari/MyExchange",
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const projectsData = [
     image: "/projects/MixMaster.jpg",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/Himanshu-Chaudhari/Muzii",
-    previewUrl: "/",
+    previewUrl: "/https://github.com/Himanshu-Chaudhari/Muzii",
   },
 ];
 

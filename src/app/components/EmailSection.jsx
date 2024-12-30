@@ -23,11 +23,11 @@ const EmailSection = () => {
           try my best to get back to you!
         </p>
         <div className="socials flex flex-row gap-4">
-          <Link target="_blank" href="https://github.com/Himanshu-Chaudhari">
-            <Image src={GithubIcon} alt="Github Icon" />
+          <Link target="_blank"  href="https://github.com/Himanshu-Chaudhari">
+            <div className="rounded-md">{image.Github.svg}</div>
           </Link>
           <Link target="_blank" href="https://www.linkedin.com/in/himanshu-chaudhari-386a40228/">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+            {image.LinkedIn.svg}
           </Link>
           <Link href="https://www.instagram.com/__himanshu_chaudhari" target="_blank">{image.Instagram.svg}</Link>
           <Link href="https://x.com/Himanshu___19?t=oCNUvRg7UXNw2QjIdx4VOA&s=09" target="_blank">{image.X.svg}</Link>
